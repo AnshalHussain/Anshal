@@ -1,0 +1,490 @@
+<!DOCTYPE html>  <html lang="en">  
+<head>  
+  <meta charset="UTF-8">  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+  <title>PetVet - Pet Care</title>  
+  <!-- Bootstrap CSS -->  
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">  
+  <!-- Font Awesome -->  
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">  
+  <!-- Custom CSS -->  
+  <link rel="stylesheet" href="style.css">  
+</head>  
+<body>    <!-- Navbar -->    <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top shadow-sm">  
+    <div class="container">  
+      <a class="navbar-brand d-flex align-items-center" href="#">  
+        <i class="fa-solid fa-stethoscope text-pink me-2"></i>  
+        <span class="fw-bold text-dark">PetVet <span class="text-pink">Pet Care</span></span>  
+      </a>  
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">  
+        <span class="navbar-toggler-icon"></span>  
+      </button>  
+      <div class="collapse navbar-collapse" id="navbarNav">  
+        <ul class="navbar-nav ms-auto">  
+          <li class="nav-item"><a class="nav-link active" href="#">Home</a></li>  
+          <li class="nav-item"><a class="nav-link" href="#">About</a></li>  
+          <li class="nav-item"><a class="nav-link" href="#">Groomers</a></li>  
+          <li class="nav-item"><a class="nav-link" href="#">Services</a></li>  
+          <li class="nav-item"><a class="nav-link" href="#">Blog</a></li>  
+          <li class="nav-item"><a class="nav-link" href="#">Pricing</a></li>  
+          <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>  
+        </ul>  
+        <a href="#" class="btn btn-pink ms-3">Free Consultation</a>  
+      </div>  
+    </div>  
+  </nav>    <!-- Hero Section -->    <section class="hero-section d-flex align-items-center">  
+    <div class="overlay"></div>  
+    <div class="container text-white position-relative">  
+      <div class="col-lg-6">  
+        <h1 class="display-4 fw-bold">The Kind of Care Your Pets Deserve</h1>  
+        <p class="lead">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia.</p>  
+        <a href="#" class="btn btn-pink me-2">Make An Appointment</a>  
+        <a href="tel:+1123456789102" class="btn btn-success">+1 123-456-789-102</a>  
+      </div>  
+    </div>  
+  </section>  
+  <!-- Services Section -->  
+  <section class="container py-5">  
+    <div class="row g-4 text-center">  <!-- Card 1 -->  
+  <div class="col-md-4">  
+    <input type="checkbox" id="card1" class="d-none">  
+    <label for="card1" class="card service-card p-4 shadow-sm h-100">  
+      <i class="fa-solid fa-syringe fa-2x mb-3 text-pink"></i>  
+      <h5 class="fw-bold">Veterinary Service</h5>  
+      <p class="text-muted">Professional medical care for your pets with modern facilities.</p>  
+    </label>  
+  </div>  
+
+  <!-- Card 2 -->  
+  <div class="col-md-4">  
+    <input type="checkbox" id="card2" class="d-none">  
+    <label for="card2" class="card service-card p-4 shadow-sm h-100">  
+      <i class="fa-solid fa-scissors fa-2x mb-3 text-pink"></i>  
+      <h5 class="fw-bold">Pet Grooming</h5>  
+      <p class="text-muted">Keep your pets fresh, clean, and styled with our grooming experts.</p>  
+    </label>  
+  </div>  
+
+  <!-- Card 3 -->  
+  <div class="col-md-4">  
+    <input type="checkbox" id="card3" class="d-none">  
+    <label for="card3" class="card service-card p-4 shadow-sm h-100">  
+      <i class="fa-solid fa-dog fa-2x mb-3 text-pink"></i>  
+      <h5 class="fw-bold">Pet Sitting</h5>  
+      <p class="text-muted">Reliable and caring sitting service for your pets while you are away.</p>  
+    </label>  
+  </div>  
+
+</div>  
+</section>
+
+  <!-- About Section -->    <section class="py-5">  
+    <div class="container">  
+      <div class="row align-items-center">  
+        <!-- Left Image -->  
+        <div class="col-lg-6">  
+          <img src="images/image2.jpeg" alt="Vet with Dog" class="img-fluid rounded shadow">  
+        </div>  
+        <!-- Right Content -->  
+        <div class="col-lg-6">  
+          <h6 class="text-pink fw-bold">WELCOME TO PETVET</h6>  
+          <h2 class="fw-bold mb-3">We Are Best Agency For Your Pets</h2>  
+          <p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>  <!-- Features -->  
+      <div class="row text-center mt-4">  
+        <div class="col-6 mb-3">  
+          <div class="p-3 border rounded hover-pink">  
+            <i class="fa-solid fa-heart fa-2x text-pink mb-2"></i>  
+            <h6 class="fw-bold">Best Pet Care</h6>  
+          </div>  
+        </div>  
+        <div class="col-6 mb-3">  
+          <div class="p-3 border rounded hover-pink">  
+            <i class="fa-solid fa-paw fa-2x text-pink mb-2"></i>  
+            <h6 class="fw-bold">Animal Lover</h6>  
+          </div>  
+        </div>  
+        <div class="col-6 mb-3">  
+          <div class="p-3 border rounded hover-pink">  
+            <i class="fa-solid fa-user-graduate fa-2x text-pink mb-2"></i>  
+            <h6 class="fw-bold">Over 20 Years</h6>  
+          </div>  
+        </div>  
+        <div class="col-6 mb-3">  
+          <div class="p-3 border rounded hover-pink">  
+            <i class="fa-solid fa-scissors fa-2x text-pink mb-2"></i>  
+            <h6 class="fw-bold">Qualified Groomer</h6>  
+          </div>  
+        </div>  
+      </div>  
+    </div>  
+  </div>  
+</div>
+
+  </section>  
+  <!--Appoinment Section Start-->  
+  <div class="appointment-section">  
+  <!-- Section Heading-->  
+   <h5 class="section-title">Make an Appointment</h5>  
+<form class="appointment-form">    <!-- Row: First & Last Name -->    <div class="form-row">  
+    <input type="text" placeholder="First Name" name="firstName" required>  
+    <input type="text" placeholder="Last Name" name="lastName" required>  
+  </div>    <!-- Row: Date & Time -->    <div class="form-row">  
+    <input type="date" name="date" required>  
+    <input type="time" name="time" required>  
+  </div>    <!-- Row: Phone & Services -->    <div class="form-row">  
+    <input type="tel" placeholder="Phone" name="phone" required>  
+    <select name="services" required>  
+      <option value="">Select your Services</option>  
+      <option value="grooming">Grooming</option>  
+      <option value="bath">Bath & Brush</option>  
+      <option value="nail">Nail Trim</option>  
+    </select>  
+  </div>    <!-- Message Box -->    <textarea name="message" placeholder="Message"></textarea>    <!-- Submit Button -->  <button type="submit" class="btn-submit">Make an Appointment</button>
+
+</form>  
+<!-- Appointment Form End -->  
+  <!--Heading Section Start-->  
+  <section class="heading-section" style="text-align: center ; margin-bottom: 30px;">  
+    <p class="small-heading">Groomers</p>  
+    <h1 class="main-heading">Our Groomers</h1>  
+    <!--Heading Section End-->  
+<!-- Team Section Start -->  
+<div class="team">    <!-- Card 1 Start -->    <div class="cards">  
+    <!-- Image section -->  
+    <div class="image-container">  
+      <img src="images/image3.jpeg" alt="Lloyd Wilson">  
+    </div>  
+    <!-- Info section -->  
+    <div class="info">  
+      <h3>Lloyd Wilson</h3> <!-- Name of the person -->  
+      <p>CEO Founder</p> <!-- Role / Position -->  
+      <!-- Social icons using Font Awesome -->  
+      <div class="social-icons">  
+        <a href="#"><i class="fab fa-twitter"></i></a>  
+        <a href="#"><i class="fab fa-facebook-f"></i></a>  
+        <a href="#"><i class="fab fa-github"></i></a>  
+        <a href="#"><i class="fab fa-instagram"></i></a>  
+      </div>  
+    </div>  
+  </div>  
+  <!-- Card 1 End -->    <!-- Card 2 Start -->    <div class="cards">  
+    <!-- Image section -->  
+    <div class="image-container">  
+      <img src="images/image4.jpeg" alt="Rachel Parker">  
+    </div>  
+    <!-- Info section -->  
+    <div class="info">  
+      <h3>Rachel Parker</h3> <!-- Name of the person -->  
+      <p>Trainer</p> <!-- Role / Position -->  
+      <!-- Social icons using Font Awesome -->  
+      <div class="social-icons">  
+        <a href="#"><i class="fab fa-twitter"></i></a>  
+        <a href="#"><i class="fab fa-facebook-f"></i></a>  
+        <a href="#"><i class="fab fa-github"></i></a>  
+        <a href="#"><i class="fab fa-instagram"></i></a>  
+      </div>  
+    </div>  
+  </div>  
+  <!-- Card 2 End -->    <!-- Card 3 Start -->    <div class="cards">  
+    <!-- Image section -->  
+    <div class="image-container">  
+      <img src="images/image5.jpeg" alt="Ian Smith">  
+    </div>  
+    <!-- Info section -->  
+    <div class="info">  
+      <h3>Ian Smith</h3> <!-- Name of the person -->  
+      <p>Groomer</p> <!-- Role / Position -->  
+      <!-- Social icons using Font Awesome -->  
+      <div class="social-icons">  
+        <a href="#"><i class="fab fa-twitter"></i></a>  
+        <a href="#"><i class="fab fa-facebook-f"></i></a>  
+        <a href="#"><i class="fab fa-github"></i></a>  
+        <a href="#"><i class="fab fa-instagram"></i></a>  
+      </div>  
+    </div>  
+  </div>  
+  <!-- Card 3 End -->    <!-- Card 4 Start -->    <div class="cards">  
+    <!-- Image section -->  
+    <div class="image-container">  
+      <img src="images/image6.jpeg" alt="Alicia Henderson">  
+    </div>  
+    <!-- Info section -->  
+    <div class="info">  
+      <h3>Alicia Henderson</h3> <!-- Name of the person -->  
+      <p>Groomer</p> <!-- Role / Position -->  
+      <!-- Social icons using Font Awesome -->  
+      <div class="social-icons">  
+        <a href="#"><i class="fab fa-twitter"></i></a>  
+        <a href="#"><i class="fab fa-facebook-f"></i></a>  
+        <a href="#"><i class="fab fa-github"></i></a>  
+        <a href="#"><i class="fab fa-instagram"></i></a>  
+      </div>  
+    </div>  
+  </div>  
+</section>  
+  <!-- Card 4 End -->  
+</div>  
+<!-- Team Section End -->  
+<!-- Testimonial Section -->  
+<div class="container-fluid py-5" >  
+  <div class="overlay"></div>    <div class="container position-relative text-center mb-5">  
+    <h6 class="small-heading text-white">Read Testimonials</h6>  
+    <h2 class="big-heading text-white">Happy Customers Says</h2>  
+  </div>    <div class="container position-relative">  
+    <div id="testimonialCarousel" class="carousel slide" data-bs-ride="carousel">  
+      <div class="carousel-inner">  <!-- Slide 1 -->  
+    <div class="carousel-item active">  
+      <div class="row">  
+        <div class="col-md-4">  
+          <div class="testimonial-box d-flex align-items-center p-3">  
+            <img src="images/image7.jpeg" class="testimonial-img me-3" alt="Customer">  
+            <div>  
+              <p class="text-muted mb-2">Far far away, behind the word mountains.</p>  
+              <h6 class="fw-bold mb-0">Lloyd Gomez</h6>  
+              <small class="role-text">CUSTOMER</small>  
+            </div>  
+          </div>  
+        </div>  
+        <div class="col-md-4">  
+          <div class="testimonial-box d-flex align-items-center p-3">  
+            <img src="images/image8.jpeg" class="testimonial-img me-3" alt="Customer">  
+            <div>  
+              <p class="text-muted mb-2">Separated they live in Bookmarksgrove.</p>  
+              <h6 class="fw-bold mb-0">Sarah Lee</h6>  
+              <small class="role-text">CUSTOMER</small>  
+            </div>  
+          </div>  
+        </div>  
+        <div class="col-md-4">  
+          <div class="testimonial-box d-flex align-items-center p-3">  
+            <img src="images/image9.jpeg" class="testimonial-img me-3" alt="Customer">  
+            <div>  
+              <p class="text-muted mb-2">Behind the word mountains, far from countries.</p>  
+              <h6 class="fw-bold mb-0">John Smith</h6>  
+              <small class="role-text">CUSTOMER</small>  
+            </div>  
+          </div>  
+        </div>  
+      </div>  
+    </div>  
+
+    <!-- Slide 2 -->  
+    <div class="carousel-item">  
+      <div class="row">  
+        <div class="col-md-4">  
+          <div class="testimonial-box d-flex align-items-center p-3">  
+            <img src="images/image9.jpeg" class="testimonial-img me-3" alt="Customer">  
+            <div>  
+              <p class="text-muted mb-2">A wonderful serenity has taken possession.</p>  
+              <h6 class="fw-bold mb-0">Lloyd Gomez</h6>  
+              <small class="role-text">CUSTOMER</small>  
+            </div>  
+          </div>  
+        </div>  
+        <div class="col-md-4">  
+          <div class="testimonial-box d-flex align-items-center p-3">  
+            <img src="images/image8.jpeg" class="testimonial-img me-3" alt="Customer">  
+            <div>  
+              <p class="text-muted mb-2">Even the all-powerful Pointing has no control.</p>  
+              <h6 class="fw-bold mb-0">Sarah Lee</h6>  
+              <small class="role-text">CUSTOMER</small>  
+            </div>  
+          </div>  
+        </div>  
+        <div class="col-md-4">  
+          <div class="testimonial-box d-flex align-items-center p-3">  
+            <img src="images/image7.jpeg" class="testimonial-img me-3" alt="Customer">  
+            <div>  
+              <p class="text-muted mb-2">Far far away, behind the word mountains.</p>  
+              <h6 class="fw-bold mb-0">John Smith</h6>  
+              <small class="role-text">CUSTOMER</small>  
+            </div>  
+          </div>  
+        </div>  
+      </div>  
+    </div>  
+
+  </div>  
+
+  <!-- Carousel Controls -->  
+  <button class="carousel-control-prev" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="prev">  
+    <span class="carousel-control-prev-icon"></span>  
+  </button>  
+  <button class="carousel-control-next" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="next">  
+    <span class="carousel-control-next-icon"></span>  
+  </button>  
+</div>
+
+  </div>  
+</div>  
+<!-- Pricing Section -->  
+<section class="pricing-section">  
+  <p class="section-subtitle">Pricing</p>  
+  <h2 class="section-title">Affordable Packages</h2>    <div class="pricing-cards">  <!-- Card 1 -->  
+<div class="pricing-card">  
+  <img src="images/image11.jpeg" alt="Basic Plan">  
+  <h3>BASIC</h3>  
+  <p class="price">$49 <span>/mo</span></p>  
+  <ul>  
+    <li>✔ 5 Dog Walk</li>  
+    <li>✔ 3 Vet Visit</li>  
+    <li>✔ 3 Pet Spa</li>  
+    <li>✔ Free Supports</li>  
+  </ul>  
+  <a href="#" class="btn">Get Started</a>  
+</div>  
+
+<!-- Card 2 -->  
+<div class="pricing-card">  
+  <img src="images/image12.jpeg" alt="Personal Plan">  
+  <h3>PERSONAL</h3>  
+  <p class="price">$79 <span>/mo</span></p>  
+  <ul>  
+    <li>✔ 5 Dog Walk</li>  
+    <li>✔ 3 Vet Visit</li>  
+    <li>✔ 3 Pet Spa</li>  
+    <li>✔ Free Supports</li>  
+  </ul>  
+  <a href="#" class="btn">Get Started</a>  
+</div>  
+
+<!-- Card 3 -->  
+<div class="pricing-card">  
+  <img src="images/image13.jpeg" alt="Business Plan">  
+  <h3>BUSINESS</h3>  
+  <p class="price">$109 <span>/mo</span></p>  
+  <ul>  
+    <li>✔ 5 Dog Walk</li>  
+    <li>✔ 3 Vet Visit</li>  
+    <li>✔ 3 Pet Spa</li>  
+    <li>✔ Free Supports</li>  
+  </ul>  
+  <a href="#" class="btn">Get Started</a>  
+</div>  
+
+<!-- Card 4 -->  
+<div class="pricing-card">  
+  <img src="images/image14.jpeg" alt="Exclusive Plan">  
+  <h3>EXCLUSIVE</h3>  
+  <p class="price">$109 <span>/mo</span></p>  
+  <ul>  
+    <li>✔ 5 Dog Walk</li>  
+    <li>✔ 3 Vet Visit</li>  
+    <li>✔ 3 Pet Spa</li>  
+    <li>✔ Free Supports</li>  
+  </ul>  
+  <a href="#" class="btn">Get Started</a>  
+</div>
+
+  </div>  
+</section>  
+<!-- Blog Section -->  
+<section class="blog-section">  
+  <p class="section-subtitle">Blog Updates</p>  
+  <h2 class="section-title">Latest Blog Updates</h2>    <div class="blog-cards">  <!-- Card 1 -->  
+<div class="blog-card">  
+  <img src="images/image15.jpeg" alt="Dog Image">  
+  <div class="blog-content">  
+    <div class="blog-meta">  
+      <span class="date"><i class="fas fa-calendar-alt"></i> AUG 12, 2020</span>  
+      <span class="admin"><i class="fas fa-user"></i> ADMIN</span>  
+      <span class="comments"><i class="fas fa-comments"></i> 3</span>  
+    </div>  
+    <h3 class="blog-title">Shelter and Feed Animals that Are in Need</h3>  
+    <p class="blog-text">Far far away, behind the word mountains</p>  
+    <a href="#" class="btn">Read more</a>  
+  </div>  
+</div>  
+
+<!-- Card 2 -->  
+<div class="blog-card">  
+  <img src="images/image16.jpeg" alt="Pet Grooming">  
+  <div class="blog-content">  
+    <div class="blog-meta">  
+      <span class="date"><i class="fas fa-calendar-alt"></i> AUG 12, 2020</span>  
+      <span class="admin"><i class="fas fa-user"></i> ADMIN</span>  
+      <span class="comments"><i class="fas fa-comments"></i> 3</span>  
+    </div>  
+    <h3 class="blog-title">Shelter and Feed Animals that Are in Need</h3>  
+    <p class="blog-text">Far far away, behind the word mountains</p>  
+    <a href="#" class="btn">Read more</a>  
+  </div>  
+</div>  
+
+<!-- Card 3 -->  
+<div class="blog-card">  
+  <img src="images/image19.jpeg" alt="Cat Image">  
+  <div class="blog-content">  
+    <div class="blog-meta">  
+      <span class="date"><i class="fas fa-calendar-alt"></i> AUG 12, 2020</span>  
+      <span class="admin"><i class="fas fa-user"></i> ADMIN</span>  
+      <span class="comments"><i class="fas fa-comments"></i> 3</span>  
+    </div>  
+    <h3 class="blog-title">Shelter and Feed Animals that Are in Need</h3>  
+    <p class="blog-text">Far far away, behind the word mountains</p>  
+    <a href="#" class="btn">Read more</a>  
+  </div>  
+</div>
+
+  </div>  
+</section>  
+<!-- Footer Section -->  
+<footer class="footer">  
+  <div class="footer-container">  <!-- Column 1: Logo & About -->  
+<div class="footer-col">  
+  <h2 class="logo"><i class="fas fa-stethoscope"></i> Petvet <span>Pet Care</span></h2>  
+  <p>Far far away, behind the word mountains, far from the countries.</p>  
+  <div class="social-links">  
+    <a href="#"><i class="fab fa-twitter"></i></a>  
+    <a href="#"><i class="fab fa-facebook-f"></i></a>  
+    <a href="#"><i class="fab fa-instagram"></i></a>  
+  </div>  
+</div>  
+
+<!-- Column 2: Services -->  
+<div class="footer-col">  
+  <h3 class="footer-title">Services</h3>  
+  <ul>  
+    <li><i class="fas fa-chevron-right"></i> Pet Adoption</li>  
+    <li><i class="fas fa-chevron-right"></i> Pet Grooming</li>  
+    <li><i class="fas fa-chevron-right"></i> Vaccination</li>  
+    <li><i class="fas fa-chevron-right"></i> Dog Training</li>  
+    <li><i class="fas fa-chevron-right"></i> Pet Daycare</li>  
+    <li><i class="fas fa-chevron-right"></i> Pet Sitter</li>  
+    <li><i class="fas fa-chevron-right"></i> Veterinary Help</li>  
+  </ul>  
+</div>  
+
+<!-- Column 3: Links -->  
+<div class="footer-col">  
+  <h3 class="footer-title">Links</h3>  
+  <ul>  
+    <li><i class="fas fa-chevron-right"></i> Home</li>  
+    <li><i class="fas fa-chevron-right"></i> About</li>  
+    <li><i class="fas fa-chevron-right"></i> Services</li>  
+    <li><i class="fas fa-chevron-right"></i> Groomer</li>  
+    <li><i class="fas fa-chevron-right"></i> Blog</li>  
+    <li><i class="fas fa-chevron-right"></i> Pricing</li>  
+    <li><i class="fas fa-chevron-right"></i> Contact</li>  
+  </ul>  
+</div>  
+
+<!-- Column 4: Contact -->  
+<div class="footer-col">  
+  <h3 class="footer-title">Have a Questions?</h3>  
+  <ul class="contact-info">  
+    <li><i class="fas fa-map-marker-alt"></i> 203 Fake St. Mountain View, San Francisco, California, USA</li>  
+    <li><i class="fas fa-phone"></i> +2 392 3929 210</li>  
+    <li><i class="fas fa-envelope"></i> info@yourdomain.com</li>  
+  </ul>  
+</div>
+
+  </div>  
+</footer>  
+<footer class="site-footer">  
+  <div class="container">  
+    <p class="copyright">  
+      © 2025 All rights reserved</p>
+</footer>
+</body>
+</html>
