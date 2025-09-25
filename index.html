@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>JavaScript Assignment (Chapter 44 - 46)</h2>
+
+  <!-- Question 1 -->
+  <h3>Question 1: Alert on Link Click</h3>
+  <a href="#" onclick="showAlert()">Click me</a>
+
+  <!-- Question 2 -->
+  <h3>Question 2: Alert on Image Click</h3>
+  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQb836dE7n6zzwt1Trmp97DPyLzM-QQM_A7w&s" onclick="showImageAlert('Mobile')" alt="Mobile">
+
+  <!-- Question 3 -->
+  <h3>Question 3: Delete Row from Table</h3>
+  <table border="1">
+    <tr>
+      <td>Ali</td>
+      <td>10</td>
+      <td><button onclick="deleteRow(this)">Delete</button></td>
+    </tr>
+    <tr>
+      <td>Ahmed</td>
+      <td>9</td>
+      <td><button onclick="deleteRow(this)">Delete</button></td>
+    </tr>
+  </table>
+
+  <!-- Question 4 -->
+  <h3>Question 4: Change Image on Mouseover / Mouseout</h3>
+  <img id="phone" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTm5hHANz6aT-5NcugwT6goIfCECJFzLUW4pQ&s" 
+       onmouseover="changeImage('phone','https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTm5hHANz6aT-5NcugwT6goIfCECJFzLUW4pQ&s')" 
+       onmouseout="changeImage('phone','https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXUVXERm3yWgAa9s5uAIG2et2PtD1mM-1n6g&s')" 
+       alt="Phone">
+
+  <!-- Question 5 -->
+  <h3>Question 5: Counter in Browser</h3>
+  <p id="counter">0</p>
+  <button onclick="increaseCounter()">Increase</button>
+  <button onclick="decreaseCounter()">Decrease</button>
+    <script src="app.js"></script>
+</body>
+</html>
